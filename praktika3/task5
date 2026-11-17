@@ -1,0 +1,6 @@
+shopping_list = ["хлеб", "творог", "яйца", "картофель"]
+shopping_list.append("огурцы")
+print("Список покупок:", shopping_list )
+unique_items = set(shopping_list)
+print("Множество продуктов:", unique_items)
+#множество (set) отличается от списка (list): оно не сохраняет порядок и хранит только уникальные значения
