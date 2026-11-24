@@ -1,0 +1,4 @@
+all_minutes = int(input())
+hours = all_minutes//60
+minutes = all_minutes%60
+print(f"{all_minutes} минут - это {hours} час(-ов, -а) и {minutes} минут.")
