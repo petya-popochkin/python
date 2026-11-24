@@ -1,4 +1,4 @@
-s = int(input())
-m = int(input())
-print(m//s)
-print(m%s)
+n = int(input())
+k = int(input())
+print(k//n)
+print(k%n)
