@@ -1,0 +1,7 @@
+import math
+import random
+x=random.randint(-10, 10)
+y=random.randint(-10, 10)
+distance = math.sqrt(x**2 + y**2)
+print(f"Точка: ({x}, {y})")
+print("Расстояние до начала координат: ", distance)
