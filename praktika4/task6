@@ -1,5 +1,5 @@
 import math
 x_a = float(input())
 x_r = math.radians(x_a)
-result = math.sin(x_r) + math.cos(x_r) + math.tan(x_r)**2
+result = math.sin(x_r) + math.cos(x_r) + math.tan(x_r) ** 2
 print(result)
